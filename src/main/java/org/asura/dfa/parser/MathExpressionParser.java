@@ -74,7 +74,7 @@ public class MathExpressionParser {
         try {
             final double number = Double.parseDouble(str);
             final boolean canBeInteger = (number % 1) == 0;
-            if ((str.startsWith("0") && canBeInteger) || (number > 1 && !canBeInteger)) {
+            if ((str.startsWith("0") && number >= 1) || (number > 1 && !canBeInteger)) {
                 throw new NumberException();
             }
             return number;
