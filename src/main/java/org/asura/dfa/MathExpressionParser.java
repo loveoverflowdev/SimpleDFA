@@ -54,11 +54,7 @@ public class MathExpressionParser {
     }
 
     private static Object parseNumber(String str) {
-        if (str.contains(".")) {
-            return Double.parseDouble(str);
-        } else {
-            return Integer.parseInt(str);
-        }
+        return Double.parseDouble(str);
     }
 
     public static void main(String[] args) {
