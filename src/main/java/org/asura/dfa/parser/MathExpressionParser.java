@@ -73,7 +73,8 @@ public class MathExpressionParser {
     private static Object parseNumber(String str) throws NumberException {
         try {
             final double number = Double.parseDouble(str);
-            if (str.startsWith("0") && number > 0) {
+            final boolean canBeInteger = (number % 1) == 0;
+            if ((str.startsWith("0") && canBeInteger) || (number > 1 && !canBeInteger)) {
                 throw new NumberException();
             }
             return number;

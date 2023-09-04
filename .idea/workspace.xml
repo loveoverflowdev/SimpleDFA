@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bbc82ae-1472-4bf1-b717-8b448fdfa32e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/asura/dfa/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/asura/dfa/exceptions/ExpressionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/asura/dfa/exceptions/NumberException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/asura/dfa/MathExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/asura/dfa/parser/MathExpressionParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/asura/dfa/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/asura/dfa/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/asura/dfa/parser/MathExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/asura/dfa/parser/MathExpressionParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,13 +83,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/asura/dfa/parser/MathExpressionParser.java</url>
-          <line>79</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/asura/dfa/parser/MathExpressionParser.java</url>
-          <line>75</line>
-          <option name="timeStamp" value="13" />
+          <line>77</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
